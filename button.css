@@ -1,0 +1,28 @@
+body{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    background-color: #323232;
+}
+button {
+    height: fit-content;
+    width: fit-content;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+
+    background-color: green;
+    box-shadow: 2px 2px 10px black;
+
+  }
+
+button:hover{
+    border: 2px solid red;
+    margin: 8px;
+
+    cursor: pointer;
+}
+  
