@@ -1,0 +1,49 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    padding-top:20px;
+    background-color: #110a1f;
+    overflow: hidden;
+    margin: 0;
+}
+#freeScrollBlock{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    height: fit-content;
+    width: 90%;
+    outline: none;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+
+    background-color: #2d61a1;
+    box-shadow: 2px 2px 10px black;
+
+  }
+button:nth-child(2){
+    background-color: rgb(255, 53, 53);
+}
+button:nth-child(1):hover{
+    border: 2px solid #2d61a1;
+    margin: 1px;
+
+    cursor: pointer;
+}
+  
+button:nth-child(2):hover{
+    border: 2px solid rgb(255, 53, 53);
+    margin: 1px;
+
+    cursor: pointer;
+}
+  

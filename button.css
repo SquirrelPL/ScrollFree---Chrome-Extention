@@ -1,13 +1,9 @@
 body{
-    height: fit-content;
+    height: min-content;
     width: fit-content;
-    padding: 10px;
-    padding-top:40px;
+    padding: 5px;
+    padding-top:0px;
     background-color: #110a1f;
-}
-#freeScrollBlock{
-    display: flex;
-    justify-content:space-between;
 }
 
 
@@ -107,26 +103,8 @@ body{
   }
 /**/
 
-button {
-    height: fit-content;
-    width: fit-content;
-    outline: none;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    color: white;
-    font-weight: bold;
-
-    background-color: #2d61a1;
-    box-shadow: 2px 2px 10px black;
-
-  }
-
-button:hover{
-    border: 2px solid red;
-    margin: 8px;
-
-    cursor: pointer;
+iframe{
+    height: 100px;
+    width: 100px;
 }
-  
+
