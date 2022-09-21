@@ -4,18 +4,20 @@
     <link rel="stylesheet" href="button.css">
   </head>
   <body>
-    <div id="header">
-      <input id="menu-toggle" type="checkbox" />
-      <table id="hamburger">
-        <tr><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td></tr>
-      </table>
-    </div>
     
-    <div id="freeScrollBlock">
-      <button id="soft">Soft ScrollFree</button>
-      <button id="impact">Impact ScrollFree</button>
-      <script src="popup.js"></script>
+    <div id="header">
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+  
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#">SoftScroll</a></li>
+        <li><a class="menu__item" href="#">SomethingSoon</a></li>
+      </ul>
     </div>
+    </div>
+    <iframe src="SoftScroll/softscroll.html" frameborder="0"></iframe>
   </body>
 </html>
