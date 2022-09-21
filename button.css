@@ -2,8 +2,52 @@ body{
     height: fit-content;
     width: fit-content;
     padding: 10px;
-    background-color: #323232;
+    padding-top:40px;
+    background-color: #110a1f;
 }
+#freeScrollBlock{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+#header{
+    position: absolute;
+    background-color: #19102d;
+    top: 0;
+    left: 0;
+    height: 30px;
+    box-shadow: 0px 4px 10px black;
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+}
+#hamburger{
+    height: 10px;
+    width: 10px;
+    margin: 10px;
+    margin-top: 9px;
+
+    padding: 0;
+    color: white;
+}
+tr,td{
+    height: 3px;
+    width: 5px;
+}
+td{
+    background-color: white;
+}
+#hamburger:hover{
+    cursor: pointer;
+}
+#menu-toggle{
+    display: none;
+}
+
+#menu-toggle:checked + #hamburger
+
 button {
     height: fit-content;
     width: fit-content;
@@ -13,8 +57,9 @@ button {
     border-radius: 5px;
     padding: 10px;
     color: white;
+    font-weight: bold;
 
-    background-color: green;
+    background-color: #2d61a1;
     box-shadow: 2px 2px 10px black;
 
   }
